@@ -16,9 +16,24 @@ public class CountryInfoController {
         return countryInfoService.getCountryInfoServiceSoap();
     }
 
-    @GetMapping("/name/{countryName}")
-    public String getCountryName(@PathVariable String countryName) {
-        return getSoap().countryName(countryName);
+    @GetMapping("/name/{countryCode}")
+    public String getCountryName(@PathVariable String countryCode) {
+        return getSoap().countryName(countryCode);
+    }
+
+    @GetMapping("/flag/{countryCode}")
+    public String getCountryFlag(@PathVariable String countryCode) {
+        return getSoap().countryFlag(countryCode);
+    }
+
+    @GetMapping("/phone/{countryCode}")
+    public String getCountryPhoneCode(@PathVariable String countryCode) {
+        return getSoap().countryIntPhoneCode(countryCode);
+    }
+
+    @GetMapping("/all")
+    public Object getCountryList() {
+        return getSoap().listOfCountryNamesByName();
     }
 
 }
