@@ -10,10 +10,10 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class CountryFullInfoResponse {
 
-    private String isoCode;
-    private String name;
-    private String capital;
-    private String phoneCode;
+    private String countryCode;//xml de isoCode du değiştirdim
+    private String countryName;//name
+    private String countryCapital;//capital
+    private String countryPhoneCode;//phoneCode
     private String continentCode;
     private String currencyIsoCode;
     private String countryFlag;
