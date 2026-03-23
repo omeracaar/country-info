@@ -1,101 +1,134 @@
 {
-	"info": {
-		"_postman_id": "285751bc-8b3c-4164-9154-cf01f0846ce6",
-		"name": "Country-Info",
-		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "27908580"
-	},
-	"item": [
-		{
-			"name": "Get Country Name By Country Code",
-			"request": {
-				"method": "GET",
-				"header": [],
-				"url": {
-					"raw": "localhost:8080/api/country/name/TR",
-					"host": [
-						"localhost"
-					],
-					"port": "8080",
-					"path": [
-						"api",
-						"country",
-						"name",
-						"TR"
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "Get Country Flag By Country Code",
-			"request": {
-				"method": "GET",
-				"header": [],
-				"url": {
-					"raw": "localhost:8080/api/country/flag/TR",
-					"host": [
-						"localhost"
-					],
-					"port": "8080",
-					"path": [
-						"api",
-						"country",
-						"flag",
-						"TR"
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "Get Country Phone By Country Code",
-			"request": {
-				"method": "GET",
-				"header": [],
-				"url": {
-					"raw": "localhost:8080/api/country/phone/TR",
-					"host": [
-						"localhost"
-					],
-					"port": "8080",
-					"path": [
-						"api",
-						"country",
-						"phone",
-						"TR"
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "Get All Countries",
-			"request": {
-				"method": "GET",
-				"header": [],
-				"url": {
-					"raw": "localhost:8080/api/country/all",
-					"host": [
-						"localhost"
-					],
-					"port": "8080",
-					"path": [
-						"api",
-						"country",
-						"all"
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "Get Country Full Info",
-			"request": {
-				"method": "GET",
-				"header": []
-			},
-			"response": []
-		}
-	]
+  "info": {
+    "_postman_id": "285751bc-8b3c-4164-9154-cf01f0846ce6",
+    "name": "Country-Info",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "27908580"
+  },
+  "item": [
+    {
+      "name": "Get Country Name By Country Code",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "localhost:8080/api/country/name/TR",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "country",
+            "name",
+            "TR"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Get Country Flag By Country Code",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "localhost:8080/api/country/flag/TR",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "country",
+            "flag",
+            "TR"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Get Country Phone By Country Code",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "localhost:8080/api/country/phone/TR",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "country",
+            "phone",
+            "TR"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Get All Countries",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "localhost:8080/api/country/all",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "country",
+            "all"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Get Country Full Info",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "localhost:8080/api/country-full-info/US",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "country-full-info",
+            "US"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Get Country Code By Language",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "localhost:8080/api/country-full-info/language/turkish",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "country-full-info",
+            "language",
+            "turkish"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
 }
