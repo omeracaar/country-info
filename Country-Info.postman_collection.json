@@ -88,6 +88,14 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "Get Country Full Info",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
 		}
 	]
 }
