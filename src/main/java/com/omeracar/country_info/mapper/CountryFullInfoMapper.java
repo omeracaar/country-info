@@ -7,16 +7,9 @@ import org.springframework.stereotype.Component;
 @Component
 public class CountryFullInfoMapper {
 
-    public CountryFullInfoResponse toDto(TCountryInfo info){
+    public CountryFullInfoResponse toDto(String languageName, String isoCode){
         //aldığım xml response 'u CountryFullInfoResponse a mapliyor
-        return new CountryFullInfoResponse(
-                info.getSISOCode(),
-                info.getSName(),
-                info.getSCapitalCity(),
-                info.getSPhoneCode(),
-                info.getSContinentCode(),
-                info.getSCurrencyISOCode(),
-                info.getSCountryFlag());
+        return new CountryFullInfoResponse(languageName,isoCode);
     }
 
 }

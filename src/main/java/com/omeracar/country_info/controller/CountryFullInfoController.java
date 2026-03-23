@@ -15,9 +15,9 @@ public class CountryFullInfoController {
     @Autowired
     private CountryFullInfoService countryFullInfoService;
 
-    @GetMapping("/{countryCode}")
-    public CountryFullInfoResponse getFullCountryInfo(@PathVariable String countryCode) {
-        return countryFullInfoService.countryFullInfoResponse(countryCode);
+    @GetMapping("/language/{languageName}")
+    public CountryFullInfoResponse getLanguageISOCode(@PathVariable String languageName) {
+        return countryFullInfoService.getLanguageISOCode(languageName);
     }
 
 
